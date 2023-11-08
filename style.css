@@ -4,9 +4,76 @@
     --title-color: #333;
 }
 
-.logo {
-    color: var(--logo-color);
+body {
+    font-family: 'montserrat', sans-serif;
 }
 
+/*header*/
 
+.header {}
 
+.header__logo {
+    color: var(--logo-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header__nav {}
+
+.header__nav-list {}
+
+.header__nav-item {}
+
+.header__nav-link {}
+
+/*services*/
+
+.services {}
+
+.services__subtitle {}
+
+.services__text {}
+
+/*works*/
+
+.works {}
+
+.works__list {}
+
+.works__item {}
+
+/*team*/
+
+.team {}
+
+.team__subtitle {}
+
+.team__text {}
+
+.team__subtext {}
+
+.team-members {}
+
+.team-membres__list {}
+
+.team-members__items {}
+
+.team-members__img {}
+
+.team-members__name {}
+
+.team-members__position {}
+
+/*footer*/
+
+.footer {}
+
+.footer__text {}
+
+.footer__form {}
+
+.footer__form--label {}
+
+.footer__form--input {}
+
+.footer__form--button {}
