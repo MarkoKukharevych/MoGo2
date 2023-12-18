@@ -8,9 +8,23 @@ body {
     font-family: 'montserrat', sans-serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
 /*header*/
 
-.header {}
+.header {
+    padding-top: 32px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .header__logo {
     color: var(--logo-color);
@@ -20,11 +34,17 @@ body {
 
 .header__nav {}
 
-.header__nav-list {}
+.header__nav-list {
+    display: flex;
+    gap: 55px;
+}
 
 .header__nav-item {}
 
-.header__nav-link {}
+.header__nav-link:hover,
+.header__nav-link:focus {
+    color: #F38181;
+}
 
 /*services*/
 
