@@ -11,7 +11,8 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
+    outline: 1px solid red;
 }
 
 /*header*/
@@ -48,19 +49,70 @@ body {
 
 /*services*/
 
-.services {}
+.services {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
-.services__subtitle {}
+.services .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.services__text {}
+.services__subtitle {
+    color: #333;
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.services__text {
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    font-variant: all-small-caps;
+}
 
 /*works*/
 
-.works {}
+.works {
+    margin-bottom: 100px;
+}
 
-.works__list {}
+.works__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
 
-.works__item {}
+.works__item {
+    display: flex;
+    flex-basis: calc((100% - 3 * 60) / 3);
+}
+
+.works__item svg {
+    margin-right: 20px;
+}
+
+.works__subtitle {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.works__text {
+    color: #B6B6B6;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 146.667%;
+    width: 275px;
+}
 
 /*team*/
 
