@@ -1,0 +1,40 @@
+/*header*/
+
+.header {
+    padding-top: 32px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    color: var(--logo-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header__nav {}
+
+.header__nav-list {
+    display: flex;
+    gap: 55px;
+}
+
+.header__nav-item {}
+
+.header__nav-link {
+    color: #95E1D3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__nav-link:hover,
+.header__nav-link:focus {
+    color: #F38181;
+}

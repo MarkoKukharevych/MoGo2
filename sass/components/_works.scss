@@ -1,0 +1,43 @@
+/*works*/
+
+.works {
+    margin-bottom: 100px;
+}
+
+.works__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.works__item {
+    display: flex;
+    flex-basis: calc((100% - 3 * 60) / 3);
+}
+
+.works__item svg {
+    margin-right: 20px;
+}
+
+.works__icons {
+    width: 37px;
+    height: 37px;
+    fill: #95E1D3;
+}
+
+.works__subtitle {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.works__text {
+    color: #B6B6B6;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 146.667%;
+    width: 275px;
+}

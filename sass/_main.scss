@@ -1,0 +1,16 @@
+// utils
+@import './utils/variables';
+@import './utils/placeholders';
+
+// common
+@import './base/common';
+@import './base/container';
+@import './base/reset';
+
+// components
+@import './components/header';
+@import './components/services';
+@import './components/works';
+@import './components/team';
+@import './components/footer';
+

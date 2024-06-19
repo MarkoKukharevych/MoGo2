@@ -1,0 +1,40 @@
+/*footer*/
+
+.footer {
+    display: flex;
+    border-radius: 1200px;
+    border-top: 1px solid #B6B6B6;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__text {}
+
+.footer__form {
+    width: 230px;
+    height: 39px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #B6B6B6;
+}
+
+.footer__form--label {}
+
+.footer__form--input {}
+
+.footer__form--button {
+    width: 150px;
+    height: 40px;
+    background: #95E1D3;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
